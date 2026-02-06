@@ -1,6 +1,6 @@
 ---
-description: "A standardized format for Git commit messages maintains a clear and searchable project history."
-applyTo: "**"
+description: 'A standardized format for Git commit messages maintains a clear and searchable project history.'
+applyTo: '**'
 ---
 
 # Git Commit Message Strategy

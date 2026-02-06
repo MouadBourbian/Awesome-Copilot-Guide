@@ -1,6 +1,6 @@
 ---
-description: "A guide to Git branching strategies, naming conventions, and semantic versioning."
-applyTo: "**"
+description: 'A guide to Git branching strategies, naming conventions, and semantic versioning.'
+applyTo: '**'
 ---
 
 # Branching Strategy and Semantic Versioning
