@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# testing
+.vitest
+
+# pnpm
+.pnpm-store
+.pnpm-debug.log*
