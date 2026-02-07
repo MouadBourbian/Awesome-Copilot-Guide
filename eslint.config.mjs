@@ -1,23 +1,16 @@
-import typescriptParser from '@typescript-eslint/parser';
+import { defineConfig, globalIgnores } from 'eslint/config';
+import nextVitals from 'eslint-config-next/core-web-vitals';
 
-export default [
-  {
-    ignores: ['.next', 'node_modules', 'out', '.vercel'],
-  },
-  {
-    files: ['**/*.{js,mjs,cjs,ts,tsx}'],
-    languageOptions: {
-      parser: typescriptParser,
-      parserOptions: {
-        ecmaVersion: 'latest',
-        sourceType: 'module',
-        ecmaFeatures: {
-          jsx: true,
-        },
-      },
-      globals: {
-        React: 'readonly',
-      },
-    },
-  },
-];
+const eslintConfig = defineConfig([
+  ...nextVitals,
+  // Override default ignores of eslint-config-next.
+  globalIgnores([
+    // Default ignores of eslint-config-next:
+    '.next/**',
+    'out/**',
+    'build/**',
+    'next-env.d.ts',
+  ]),
+]);
+
+export default eslintConfig;
