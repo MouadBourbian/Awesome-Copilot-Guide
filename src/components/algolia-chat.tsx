@@ -60,7 +60,7 @@ export function AlgoliaChat() {
       <header className="flex-shrink-0 border-b bg-background px-4 py-3 sm:px-6">
         <div className="flex items-center gap-2 max-w-7xl mx-auto">
           <Bot className="w-6 h-6" />
-          <h1 className="text-lg font-semibold">Algolia AI Assistant</h1>
+          <h1 className="text-lg font-semibold">Awesome Copilot AI Assistant</h1>
         </div>
       </header>
 
@@ -71,7 +71,7 @@ export function AlgoliaChat() {
             {messages.length === 0 && (
               <div className="flex flex-col items-center justify-center h-full text-center text-muted-foreground py-12">
                 <Bot className="w-12 h-12 mb-4 opacity-50" />
-                <p className="text-lg font-medium">Welcome to Algolia AI Chat</p>
+                <p className="text-lg font-medium">Welcome to Awesome Copilot AI Chat</p>
                 <p className="text-sm mt-2">Ask me anything to get started!</p>
               </div>
             )}
