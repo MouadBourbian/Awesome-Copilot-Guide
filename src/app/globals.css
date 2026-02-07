@@ -67,3 +67,56 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Markdown content styling */
+.prose {
+  @apply text-foreground;
+}
+
+.prose p {
+  @apply my-2;
+}
+
+.prose strong {
+  @apply font-semibold;
+}
+
+.prose code {
+  @apply bg-muted px-1.5 py-0.5 rounded text-sm;
+}
+
+.prose pre {
+  @apply bg-muted p-4 rounded-lg overflow-x-auto my-4;
+}
+
+.prose ul,
+.prose ol {
+  @apply ml-4 my-2;
+}
+
+.prose li {
+  @apply my-1;
+}
+
+.prose a {
+  @apply text-primary underline underline-offset-2 hover:text-primary/80;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  @apply font-semibold mt-4 mb-2;
+}
+
+.prose h1 {
+  @apply text-xl;
+}
+
+.prose h2 {
+  @apply text-lg;
+}
+
+.prose h3 {
+  @apply text-base;
+}
