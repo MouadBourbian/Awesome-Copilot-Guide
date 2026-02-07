@@ -153,7 +153,7 @@ export function AlgoliaChat() {
           {/* AI Disclaimer */}
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
             <p>LLMs can make mistakes, verify their answers.</p>
-            <p>Do not enter any information you wouldn't want someone to review or use.</p>
+            <p>Do not enter any information you wouldn&apos;t want someone to review or use.</p>
           </div>
 
           {/* Powered By Attribution */}
