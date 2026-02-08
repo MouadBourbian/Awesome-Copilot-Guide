@@ -178,6 +178,52 @@ export function AlgoliaChat() {
                 AI powered by Google Gemini
               </a>
             </div>
+            <span className="text-muted-foreground/50">•</span>
+            <div className="flex items-center gap-1.5">
+              <a
+                href="https://github.com/github/awesome-copilot"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Based on Awesome Copilot
+              </a>
+            </div>
+          </div>
+
+          {/* Legal Links */}
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+            <div className="flex items-center gap-2">
+              <a
+                href="https://github.com/MouadBourbian/Awesome-Copilot-Guide/blob/main/PRIVACY.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="no-underline hover:underline"
+              >
+                Privacy Policy
+              </a>
+            </div>
+            <span className="text-muted-foreground/50">|</span>
+            <div className="flex items-center gap-1.5">
+              <a
+                href="https://github.com/MouadBourbian/Awesome-Copilot-Guide/blob/main/TERMS.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="no-underline hover:underline"
+              >
+                Terms of Service
+              </a>
+            </div>
+            <span className="text-muted-foreground/50">|</span>
+            <div className="flex items-center gap-1.5">
+              <a
+                href="https://github.com/MouadBourbian/Awesome-Copilot-Guide/blob/main/LICENSE"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="no-underline hover:underline"
+              >
+                MIT License
+              </a>
+            </div>
           </div>
         </div>
       </footer>
