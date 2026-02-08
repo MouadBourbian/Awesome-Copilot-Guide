@@ -9,6 +9,7 @@ import { Button } from './ui/button';
 import { ScrollArea } from './ui/scroll-area';
 import { Send, Bot, User } from 'lucide-react';
 import Image from 'next/image';
+import algoliaLogo from '../assets/algolia-logo.svg';
 
 const ALGOLIA_APP_ID = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID!;
 const ALGOLIA_API_KEY = process.env.NEXT_PUBLIC_ALGOLIA_API_KEY!;
@@ -153,38 +154,28 @@ export function AlgoliaChat() {
           {/* AI Disclaimer */}
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
             <p>LLMs can make mistakes, verify their answers.</p>
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
             <p>Do not enter any information you wouldn&apos;t want someone to review or use.</p>
           </div>
 
           {/* Powered By Attribution */}
-          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
-              <span>Search powered by</span>
               <a
-                href="https://www.algolia.com/"
+                href="https://www.algolia.com/developers"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center hover:opacity-80 transition-opacity"
+                className="inline-flex items-center gap-1"
               >
-                <Image
-                  src="/algolia-logo.svg"
-                  alt="Algolia"
-                  width={60}
-                  height={20}
-                  className="h-4 w-auto"
-                />
+                <span>Powered by</span>
+                <Image src={algoliaLogo} alt="Algolia" width={80} height={24} />
               </a>
             </div>
             <span className="text-muted-foreground/50">•</span>
             <div className="flex items-center gap-1.5">
-              <span>AI powered by</span>
-              <a
-                href="https://ai.google.dev/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium hover:underline"
-              >
-                Google Gemini
+              <a href="https://ai.google.dev/" target="_blank" rel="noopener noreferrer">
+                AI powered by Google Gemini
               </a>
             </div>
           </div>
