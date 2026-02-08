@@ -1,11 +1,25 @@
+# Awesome Copilot Guide
+
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Next.js](https://img.shields.io/badge/Next.js-16-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 ![GitHub CI/CD](https://img.shields.io/github/actions/workflow/status/MouadBourbian/Awesome-Copilot-Guide/ci.yml)
 
-# Awesome Copilot Guide
+**What is this?**
 
-A modern Next.js application featuring an AI-powered chat interface using Algolia Agent Studio. Fully built with GitHub Copilot CLI and hosted on GitHub Pages.
+Think of this as your personal guide through the [Awesome GitHub Copilot](https://github.com/github/awesome-copilot) ecosystem. Instead of scrolling through hundreds of agents, skills, and prompts trying to find what you need, just tell the chat what you're working on or what tech stack you're using.
+
+**The problem it solves:**
+
+Finding the right Copilot resources shouldn't feel like searching for a needle in a haystack. This tool cuts through the noise by instantly filtering a curated catalog to match your actual workflow.
+
+**How it works:**
+
+Before responding, the AI searches a dedicated Algolia index with the help of Algolia Agent Studio, so you won't find any broken links — only real resources that actually exist. You receive a personalised list of recommendations that fit your specific needs, saving you time and allowing you to get back to coding faster.
+
+## Screenshot
+
+![Demo Screenshot](./images/demo.png)
 
 ## Tech Stack
 
@@ -66,3 +80,7 @@ pnpm build
 
 - [Algolia Configuration](./docs/Algolia.md): Detailed guide on generating the search index, importing data, and configuring the Algolia Agent.
 - [Deployment Guide](./docs/Deploy.md): Instructions for configuring GitHub Secrets and deploying the application to GitHub Pages.
+
+## Acknowledgments
+
+- [Awesome Copilot](https://github.com/github/awesome-copilot) by GitHub – The curated list of resources that powers this assistant.
