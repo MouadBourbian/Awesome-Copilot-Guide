@@ -1,13 +1,13 @@
 # Privacy Policy
 
-**Last Updated:** February 8, 2026
+**Last Updated:** February 13, 2026
 
 ## 1. Introduction
 
 This Privacy Policy applies to the **Awesome Copilot Guide** demo application. **I** created this project specifically as a demonstration entry for the following DEV.to contests:
 
-- [Algolia AI Challenge](https://dev.to/challenges/algolia-2026-01-07)
-- [GitHub Actions Challenge](https://dev.to/challenges/github-2026-01-21)
+- [Algolia Agent Studio Challenge](https://dev.to/challenges/algolia-2026-01-07)
+- [GitHub Copilot CLI Challenge](https://dev.to/challenges/github-2026-01-21)
 
 By using this demo, you acknowledge that it is an open-source project intended for educational and demonstration purposes.
 
